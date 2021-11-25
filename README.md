@@ -1,3 +1,10 @@
+# Additional things @swihart found useful:
+
+  * [R-Ladies Tunis YouTube Video](https://www.youtube.com/watch?v=RksaNh5Ywbo)
+  * [List of emojis you can use with surrounding colons, i.e. :fr:](https://www.webfx.com/tools/emoji-cheat-sheet/#video)
+
+
+
 # Hugo Apéro
 
 <!-- Markdown snippet -->
