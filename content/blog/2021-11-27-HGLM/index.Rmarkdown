@@ -4,7 +4,7 @@ subtitle: "A comparison of `hglm::hglm` and `gnlrim::gnlrim`"
 excerpt: "We know `gnlrim` supports non-normal random intercept distributions as well as nonlinear predictors.  So can we fit a HGLM using `gnrlim`?"
 date: 2021-11-27
 author: "Bruce Swihart"
-draft: true
+draft: false
 images:
 series:
 tags:
