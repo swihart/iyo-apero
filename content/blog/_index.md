@@ -14,18 +14,16 @@ sidebar:
   title: FAQs and Core Concepts
   description: |
     
+    [What is clustered binary data?](/project/gnlrim)
     
     [What is a bridge distribution?](/project/gnlrim)
     
-    [What is clustered binary data?](/project/gnlrim)
-    
     [What is the difference between Wang and Louis (2003) and Heagerty (1999)?](/project/gnlrim)
     
-    Check out the _index.md file in the /blog folder 
-    to edit this content. 
+  
   author: "Bruce Swihart"
-  text_link_label: Subscribe via RSS
-  text_link_url: /index.xml
+  text_link_label: 
+  text_link_url: 
   show_sidebar_adunit: false # show ad container
 
 # set up common front matter for all pages inside blog/

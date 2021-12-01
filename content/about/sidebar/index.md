@@ -15,7 +15,7 @@ link_list:
 - name: Bridge distributions
   url:  https://cran.r-project.org/web/packages/bridgedist/vignettes/the_bridgedist_basics.html 
 - name: Malaria Transmission Blocking Vaccines
-  url: https://www.who.int/tdr/publications/documents/malaria-transmission-blocking.pdf
+  url: https://apo.who.int/publications/i/item/malaria-transmission-blocking-vaccines-an-ideal-public-good
 ---
 
 ** index doesn't contain a body, just front matter above.
