@@ -1,9 +1,8 @@
 ---
-title: A Blog That Works
+title: Blog
 description: |
-  This is a fully featured blog that supports categories, 
-  tags, series, and pagination.
-author: "The R Markdown Team @RStudio"
+  Core Concepts and Musings
+author: "Bruce Swihart"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: true
@@ -12,22 +11,26 @@ layout: list-sidebar # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
-  title: A Sidebar for Your Thoughts
+  title: FAQs and Core Concepts
   description: |
-    This is a fully featured blog that supports categories,
-    tags, series, and pagination. Even this sidebar offers 
-    a ton of customizations.
+    
+    
+    [What is a bridge distribution?](/project/gnlrim)
+    
+    [What is clustered binary data?](/project/gnlrim)
+    
+    [What is the difference between Wang and Louis (2003) and Heagerty (1999)?](/project/gnlrim)
     
     Check out the _index.md file in the /blog folder 
     to edit this content. 
-  author: "The R Markdown Team @RStudio"
+  author: "Bruce Swihart"
   text_link_label: Subscribe via RSS
   text_link_url: /index.xml
   show_sidebar_adunit: false # show ad container
 
 # set up common front matter for all pages inside blog/
 cascade:
-  author: "The R Markdown Team @RStudio"
+  author: "Bruce"
   show_author_byline: true
   show_post_date: true
   show_disqus_comments: false # see disqusShortname in site config

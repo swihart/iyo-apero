@@ -1,7 +1,7 @@
 baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Personal website of Bruce Swihart"
+title = "Bruce Swihart"
 author = "Bruce Swihart"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
@@ -28,11 +28,11 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "NIAID"
-  orgLocal = "Rockville, MD"
+  orgName = "Bruce Swihart"
+  orgLocal = ""
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
-  favicon = "/img/favicon.ico"
-  logo = "/img/blogophonic-mark-dark.png"
+  favicon = "/img/favicon-32x32.png"
+  logo = "/img/house-user-solid.svg"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -41,14 +41,14 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = "/img/1024px-Whitehousenight.jpeg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "bruce_swihart"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "plum"
+  theme = "forest"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -61,8 +61,8 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Alegreya Sans / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Bitter"
-  customheadingFontFamily = "Bitter"
+  customtextFontFamily = "Bitter" #"Josefin Slab"
+  customheadingFontFamily = "Bitter" #"Josefin Slab"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
@@ -76,19 +76,32 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
+      url       = "https://github.com/swihart"
   [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
+      icon      = "stack-overflow" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
-  [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.instagram.com/explore/tags/apero/"
+      url       = "https://stackoverflow.com/users/2727349/swihart"
+#  [[params.social]]
+#      icon      = "facebook-square" # icon name without the 'fa-'
+#      icon_pack = "fab"
+#      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
+#  [[params.social]]
+#      icon      = "instagram" # icon name without the 'fa-'
+#      icon_pack = "fab"
+#      url       = "https://www.instagram.com/explore/tags/apero/"
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
+      url       = "https://twitter.com/bruce_swihart"
+## https://www.simplilearn.com/tutorials/html-tutorial/html-mailto        
+  [[params.social]]
+      icon      = "envelope" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "mailto:bruce.swihart+rbind@gmail.com"
+  [[params.social]]
+      icon      = "google-scholar" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "https://scholar.google.com/citations?user=jw6LAu0AAAAJ&hl=en"      
   [[params.social]]
       icon      = "rss" # icon name without the 'fa-'
       icon_pack = "fas"
@@ -102,7 +115,7 @@ enableEmoji = true
 [menu]
   [[menu.header]]
     name = "About"
-    title = "About Blogophonic"
+    title = "About Bruce"
     url = "/about/"
     weight = 1
   [[menu.header]]
@@ -127,11 +140,11 @@ enableEmoji = true
     title = "License"
     url = "/license/"
     weight = 1
-  [[menu.footer]]
-    name = "Contact"
-    title = "Contact form"
-    url = "/contact/"
-    weight = 2
+#  [[menu.footer]]
+#    name = "Contact"
+#    title = "Contact form"
+#    url = "/contact/"
+#    weight = 2
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
@@ -155,4 +168,3 @@ enableEmoji = true
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
-

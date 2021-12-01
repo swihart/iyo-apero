@@ -1,12 +1,12 @@
 ---
-title: A Project Portfolio To Grow
-description: "Give your projects a place to live online."
-author: "The R Markdown Team @RStudio"
+title: R-package Portfolio
+description: "Get the numbers out of the computer."
+author: " and/or Maintained by Bruce Swihart"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: false
 # for listing page layout
-layout: list-grid # list, list-sidebar, list-grid
+layout: list-sidebar # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
@@ -15,10 +15,20 @@ sidebar:
     Projects can be anything!
     Check out the _index.md file in the /project folder 
     to edit this content.
-  author: "The R Markdown Team @RStudio"
-  text_link_label: ""
-  text_link_url: ""
+  author: "Bruce Swihart"
+  text_link_label: "Bridge distribution for survival models"
+  text_link_url: "https://doi.org/10.1016/j.cmpb.2021.106115"
   show_sidebar_adunit: false # show ad container
+  links:
+    - icon: door-open
+      icon_pack: fas
+      name: CMPB Paper for Bridged Survival models
+      url: https://doi.org/10.1016/j.cmpb.2021.106115
+    - icon: github
+      icon_pack: fab
+      name: Code for Bridged Survival models
+      url: https://github.com/swihart/bridged_survival
+
 
 # set up common front matter for all individual pages inside project/
 cascade:    

@@ -1,7 +1,9 @@
 # Additional things @swihart found useful:
 
   * [R-Ladies Tunis YouTube Video](https://www.youtube.com/watch?v=RksaNh5Ywbo)
-  * [List of emojis you can use with surrounding colons, i.e. turn `:fr:` into :fr:](https://www.webfx.com/tools/emoji-cheat-sheet/#video)
+  * [List of emojis you can use with surrounding colons, i.e. type `:fr:` and have :fr: rendered](https://www.webfx.com/tools/emoji-cheat-sheet/#video)
+  * [Line breaks use `<br/>`](https://discourse.gohugo.io/t/retain-line-breaks-in-plain-text-paragraph/605/2)
+  * [get mathjax working by editing these files](https://github.com/hugo-apero/hugo-apero/pull/43/files) and [48](https://github.com/hugo-apero/hugo-apero/pull/48/files).
 
 
 
