@@ -27,11 +27,11 @@ links:
   url: https://cran.r-project.org/web/packages/gnlm/index.html
 ---
 
-I am maintaining Jim Lindsey's `gnlm` on CRAN. Think "glm", but instead of having a predictor $$\beta_0 + \beta_1 X$$ you can have $beta_0 + \exp(\beta_1 X_1)/(\beta_2 X_2 + \beta_3)$
+I am maintaining Jim Lindsey's `gnlm` on CRAN. Think "glm", but instead of having a *linear* predictor $$\beta_0 + \beta_1 X$$ you can have a *nonlinear* predictor like `\(\beta_0 + \frac{\exp(\beta_1 X_1)}{(\beta_2 X_2 + \beta_3)}\)`.
 
 ---
 
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
   
 Accessed from the [R] help pipermail on 2021-11-27, but [written on 2001-05-29](https://stat.ethz.ch/pipermail/r-help/2001-May/013037.html):
 
