@@ -60,7 +60,7 @@ germ.hglm$ranef
 print(germ.hglm, print.ranef = TRUE) 
 ```
 
-Stray observations:  the random intercepts are all really close to 0.50, which makes me think the shape parameter a for the Beta(a,a) distribution must be considerably large (remember, Beta(1,1) is uniform (in purple below) and as a increases the density for Beta(a,a) gets more and more concentrated about 0.50 (blue; red).  As a gets below 1 it starts "blowing up" near x=0 and x=1 (orange).)
+Stray observations:  the random intercepts are all really close to 0.50, which makes me think the shape parameter $a$ for the ${\rm Beta}(a,a)$ distribution must be considerably large (remember, ${\rm Beta}(1,1)$ is uniform (in purple below) and as $a$ increases the density for ${\rm Beta}(a,a)$ gets more and more concentrated about 0.50 (blue; red).  As $a$ gets below 1 it starts "blowing up" near x=0 and x=1 (orange).)
 
 ```{r, echo=TRUE, }
 plot (seq(0,1,0.001),dbeta(seq(0,1,0.001),36.0,36.0), col="red"   , lwd=3, 

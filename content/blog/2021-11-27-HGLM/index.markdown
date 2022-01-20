@@ -127,7 +127,7 @@ print(germ.hglm, print.ranef = TRUE)
 ## Estimation converged in 10 iterations
 ```
 
-Stray observations:  the random intercepts are all really close to 0.50, which makes me think the shape parameter a for the Beta(a,a) distribution must be considerably large (remember, Beta(1,1) is uniform (in purple below) and as a increases the density for Beta(a,a) gets more and more concentrated about 0.50 (blue; red).  As a gets below 1 it starts "blowing up" near x=0 and x=1 (orange).)
+Stray observations:  the random intercepts are all really close to 0.50, which makes me think the shape parameter `\(a\)` for the `\({\rm Beta}(a,a)\)` distribution must be considerably large (remember, `\({\rm Beta}(1,1)\)` is uniform (in purple below) and as `\(a\)` increases the density for `\({\rm Beta}(a,a)\)` gets more and more concentrated about 0.50 (blue; red).  As `\(a\)` gets below 1 it starts "blowing up" near x=0 and x=1 (orange).)
 
 
 ```r
@@ -215,6 +215,10 @@ germ.gnlrim <-
 ```
 
 ```
+## [1] 5
+##    Intercept      extract       seed73         intx alp1_eq_alp2 
+##            0            0            0            0           20 
+## [1] 105.1805
 ## fn is  fn 
 ## Looking for method =  nlminb 
 ## Function has  5  arguments
@@ -294,7 +298,7 @@ germ.gnlrim <-
 ## 
 ## $xtimes
 ## user.self 
-##     2.972 
+##     2.971 
 ## 
 ## Assemble the answers
 ```
@@ -340,7 +344,16 @@ germ.gnlrim.logrand <-
          trace=0,
          method='nlminb'
   )
+```
 
+```
+## [1] 5
+##    Intercept      extract       seed73         intx alp1_eq_alp2 
+##            0            0            0            0            2 
+## [1] 98.54433
+```
+
+```r
 ## log.rand not quite what we wanted
 rbind(
   hglm=as.numeric(germ.hglm$fixef),
@@ -429,7 +442,16 @@ gnlrim.logit.rand.ldhc <-
          trace=0,
          method='nlminb'
   )
+```
 
+```
+## [1] 5
+##    Intercept      extract       seed73         intx alp1_eq_alp2 
+##  -0.54240130   1.33915914   0.07650678  -0.82567005  20.00000000 
+## [1] 54.03772
+```
+
+```r
 ## Lee and Nelder 1996 JRSS-B
 ##   from section 6.3, page 640  
 ## the dispersion should be:
@@ -499,7 +521,16 @@ gnlrim.logit.rand.ldha <-
          trace=0,
          method='nlminb'
   )
+```
 
+```
+## [1] 5
+##    Intercept      extract       seed73         intx alp1_eq_alp2 
+##       0.0000       0.0000       0.0000       0.0000      19.9918 
+## [1] 68.74008
+```
+
+```r
 rbind(
 hglm=c(as.numeric(germ.hglm$fixef),alpha.hglm.seeds),
 gnlrim.rand=germ.gnlrim[1:5],
@@ -541,7 +572,16 @@ binomial.beta.gnlrim <-
          trace=0,
          method='nlminb'
   )
+```
 
+```
+## [1] 5
+##    Intercept      extract       seed73         intx alp1_eq_alp2 
+##       0.0000       0.0000       0.0000       0.0000      19.9918 
+## [1] 68.74008
+```
+
+```r
 print(
   rbind(
     binomial.beta.gnlrim = binomial.beta.gnlrim[1:5],
@@ -593,7 +633,16 @@ binomial.norm.glmm <-
          trace=0,
          method='nlminb'
   )
+```
 
+```
+## [1] 5
+##    Intercept      extract       seed73         intx alp1_eq_alp2 
+##       0.0000       0.0000       0.0000       0.0000      19.9918 
+## [1] 89.12256
+```
+
+```r
 print(
   rbind(
     binomial.beta.gnlrim = binomial.beta.gnlrim[1:5],
