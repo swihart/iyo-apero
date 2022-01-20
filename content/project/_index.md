@@ -10,7 +10,7 @@ layout: list-sidebar # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
-  title: A Sidebar for Your Projects
+  title: General Projects
   description: |
    *forthcoming*
    

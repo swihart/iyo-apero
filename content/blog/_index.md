@@ -10,16 +10,22 @@ show_post_date: true
 layout: list-sidebar # list, list-sidebar, list-grid
 
 # for list-sidebar layout
+    
+#[What is clustered binary data?]#(/project/gnlrim)
+#[What is a bridge distribution?]#(/project/gnlrim)
+#[What is the difference between Wang and Louis (2003) and Heagerty (1999)?]#(/project/gnlrim)
+    
+
 sidebar: 
   title: FAQs and Core Concepts
   description: |
+    *forthcoming*
     
-    [What is clustered binary data?](/project/gnlrim)
+    What is clustered binary data?
     
-    [What is a bridge distribution?](/project/gnlrim)
+    What is a bridge distribution?
     
-    [What is the difference between Wang and Louis (2003) and Heagerty (1999)?](/project/gnlrim)
-    
+    What is the difference between Wang and Louis (2003) and Heagerty (1999)?
   
   author: "Bruce Swihart"
   text_link_label: 
