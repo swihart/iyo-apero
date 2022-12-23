@@ -13,6 +13,8 @@ categories:
 layout: single-sidebar
 ---
 
+Note to self: probably going to go with Rolf approach.
+
 I am maintaining code that was originally created to make extensive use of `attach()`.  I have come to learn (and be adamantly told) that this is not preferrable for deployable code ([see this SO](https://stackoverflow.com/q/10067680/2727349)).  So, I'd like to investigate adding a data argument to my function call that fits a regression, and I'm going to investigate how `lm` does it to get more knowledgeable.
 
 ## lm
